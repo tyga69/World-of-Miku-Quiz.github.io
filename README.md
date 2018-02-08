@@ -42,7 +42,7 @@ border-radius: 10px;
 margin-top: 0;
 border: 2px solid black;
 padding: 5px;
-height: 410px;
+height: 510px;
 background: white;
 background-image: url("code.jpg");
 color: black;
@@ -60,7 +60,6 @@ color: black;
 <p> If you wish to test your faith and become a true believer then take this test to see if are worthy of calling yourself a Miku fan and follower.</p>
 
 <img src="https://media.giphy.com/media/1007jc7jstgLlu/giphy.gif" alt="miku" style="width:145px;height:100px:">
-</div><!-- close header div -->
 
 <form id="form1">
 <fieldset>
@@ -136,7 +135,3 @@ return false; // required to not refresh the page; just leave this here
 
 </script>
 
-
-
-</body>
-</html>
