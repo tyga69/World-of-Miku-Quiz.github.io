@@ -103,7 +103,7 @@ color: black;
 </form>
 
 
-<p>Your grade is: <span id="grade">__</span></p>
+<p>Result is: <span id="grade">__</span></p>
 <p id="grade2"></p>
 <script>
 document.getElementById("form1").onsubmit=function() {
