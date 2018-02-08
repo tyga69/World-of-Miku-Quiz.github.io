@@ -42,7 +42,7 @@ border-radius: 10px;
 margin-top: 0;
 border: 2px solid black;
 padding: 5px;
-height: 460px;
+height: 490px;
 background: white;
 background-image: url("code.jpg");
 color: black;
@@ -62,7 +62,7 @@ color: black;
 <img src="https://media.giphy.com/media/1007jc7jstgLlu/giphy.gif" alt="miku" style="width:145px;height:100px:">
 
 <form id="form1">
-<fieldset>
+. Join<fieldset>
 <h2>What is Miku to you?</h2>
 <label for="var_string"><input type="radio" name="variable" value="25" id="var_string" />life</label>
 <label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A hologram</label>
@@ -121,7 +121,7 @@ document.getElementById("form1").onsubmit=function() {
 if (result == 0) {result2 = "You have disrespected Miku with your pathetic attempt.<br /><img src='miku 2.jpg' width='300' />"};
     if (result == 25) {result2 = "You are not worthy,normie.<br /><img src='25.jpg' width='300' />"};
     if (result == 50) {result2 = "Your faith in Miku is not strong enough to be part of the World of Miku.<br /><img src='50.jpg' width='300' />"};
-    if (result == 75) {result2 = "You are one of the few that is worthy of being part of the magical world of Miku<br /><img src='75.jpg' width='300' />"};
+    if (result == 75) {result2 = "You are one of the few that is worthy of being part of the magical world of Miku. Join https://www1.ticketmaster.com/event/1C0054239F0321EC<br /><img src='75.jpg' width='300' />"};
     if (result == 100) {result2 = "Wow you got %100, sadly Miku has no room in her kingdom for Weebs.<br /><img src='100.jpg' width='300' />"};
 
 
