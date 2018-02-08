@@ -42,7 +42,7 @@ border-radius: 10px;
 margin-top: 0;
 border: 2px solid black;
 padding: 5px;
-height: 510px;
+height: 460px;
 background: white;
 background-image: url("code.jpg");
 color: black;
@@ -106,7 +106,6 @@ color: black;
 
 <p>Your grade is: <span id="grade">__</span></p>
 <p id="grade2"></p>
-</div><!-- close main div -->
 <script>
 document.getElementById("form1").onsubmit=function() {
        variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
