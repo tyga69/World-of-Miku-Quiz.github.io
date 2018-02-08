@@ -42,8 +42,7 @@ border-radius: 10px;
 margin-top: 0;
 border: 2px solid black;
 padding: 5px;
-height: 490px;
-background: white;
+height: 490px;background: white;
 background-image: url("code.jpg");
 color: black;
 }
@@ -62,7 +61,7 @@ color: black;
 <img src="https://media.giphy.com/media/1007jc7jstgLlu/giphy.gif" alt="miku" style="width:145px;height:100px:">
 
 <form id="form1">
-. Join<fieldset>
+<fieldset>
 <h2>What is Miku to you?</h2>
 <label for="var_string"><input type="radio" name="variable" value="25" id="var_string" />life</label>
 <label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A hologram</label>
@@ -131,6 +130,3 @@ document.getElementById("grade2").innerHTML = result2;
 
 return false; // required to not refresh the page; just leave this here
 } //this ends the submit function
-
-</script>
-
